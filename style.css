@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'saira extra condensed', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+.corpo-todo{
+    display: flex;
+}
+.barra-lateral{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #248bc7;
+    
+}
+.barra-lateral-sub{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%)
+}
+.img-barra-lateral{
+    text-align: center;
+}
+.img-barra-lateral img{
+    width: 60%;
+    border-radius: 50%;
+    border: 5px solid #a71717;
+}
+.menu ul{
+    list-style-type: none;/* tira os pontinho da lista */
+}
+.menu{
+    margin: 20%;
+    text-align: center;
+}
+.menu ul > li > a {
+    color: black;
+    opacity: 0.4 ;
+    font-size: 26px;
+    display: block;
+    margin-bottom:5%;
+    text-decoration: none; 
+    
+}
+
+.menu a{
+    
+    text-decoration: none; /*tira o sublinhado*/
+}
+.menu a.seletor{
+    opacity: 1 ;
+}
+.conteudo{
+    position:absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    top: 50%;
+    transform:translateY(-50%);
+    padding:0 3%; 
+}
+.img-lateral img {
+    width: 60%;
+    border-radius: 50%;
+    border: 4px solid black;
+    margin-left: 60px;
+}
+
+article.descricao{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+article.descricao  h1{
+ 
+    color: black;
+    font-size: 70px;
+    margin-top: 20px;
+    
+}
+article.descricao h1 > span{
+    color: #248bc7;
+}  
+article.descricao  h2 > a > span{
+  
+    color: black;    
+}  
+article.descricao h2{
+     margin: 15px 0;
+     color: #248bc7;
+     font-size: 26px;
+}
+ 
+h2 > a{
+    text-decoration: none;
+}
+ article.descricao p{
+    color: black;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.rede-social{
+    margin-top: 20px;
+}
+.rede-social img{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.rede-social li {
+    display: inline-block;
+
+}
+h3{
+    color: black;
+}
+.conhecimentos {
+    color: black;
+    font-size: 20px;
+    margin-top: 40px;
+    margin: 20px;
+
+}
+.objetivos{
+    color: black;
+    font-size: 20px;
+    margin-top: 40px;
+    margin: 20px;
+}
+li{
+    font-size: 20px;
+}
